@@ -2,8 +2,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className='bg-moss-green dark:bg-forest-green h-screen w-screen'>
-      <h1 className='text-forest-green dark:text-moss-green text-5xl text-center py-6'>The Curious Dev</h1>
+    <div className='
+    bg-gray-100
+    h-screen 
+    flex
+    items-center
+    justify-center
+    gap-4
+    flex-row'>
+      <div className='bg-white p-2 rounded'>
+        <h1>Flexbox</h1>
+      </div>
+      <div className='bg-white p-2 rounded'>
+        <h1>Flexbox</h1>
+      </div>
     </div>
   );
 }
