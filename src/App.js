@@ -4,17 +4,19 @@ function App() {
   return (
     <div className='
     bg-gray-100
-    h-screen 
-    flex
-    items-center
-    justify-center
-    gap-4
-    flex-row'>
-      <div className='bg-white p-2 rounded'>
-        <h1>Flexbox</h1>
-      </div>
-      <div className='bg-white p-2 rounded'>
-        <h1>Flexbox</h1>
+    h-screen
+    grid
+    place-items-center'>
+      <div className='grid grid-cols-3 gap-4'>
+        <div>🔥</div>
+        <div>🔥</div>
+        <div>🔥</div>
+        <div>🔥</div>
+        <div>🔥</div>
+        <div>🔥</div>
+        <div>🔥</div>
+        <div>🔥</div>
+        <div>🔥</div>
       </div>
     </div>
   );
